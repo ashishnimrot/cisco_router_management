@@ -5,6 +5,10 @@
 ## Features
 
 - Laravel 8.0
+- Display only the first 6 products with images and amounts.
+- Sort option based on prize low to high or high to low.
+- Filter option based on the product category.
+- Convert currency from local or select currency rates.
 
 ## Main Features
 
@@ -33,13 +37,14 @@ You create a new project starting from this repository, the _php artisan jwt:gen
 
 ## Installation
 
-- `git clone https://github.com/ashishnimrot/EcommerceLaravel.git`
-- `cd EcommerceLaravel`
+- `git clone https://github.com/ashishnimrot/cisco_router_management.git`
+- `cd cisco_router_management/server`
 - `composer install`
 -  Edit `.env` and set your database connection details 
 - `php artisan key:generate`
+- `php artisan jwt:generate`
 - `php artisan migrate:fresh --seed`
-
+- `php artisan generate-data:router 100`
 
 ## Usage
 
@@ -48,4 +53,10 @@ You create a new project starting from this repository, the _php artisan jwt:gen
 ```bash
 # serve on browser
 php artisan serve
+```
+
+#### Testing
+
+```bash
+php artisan test
 ```
