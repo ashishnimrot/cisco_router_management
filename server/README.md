@@ -31,15 +31,6 @@ For each controller there's an already setup route in `routes/api.php` file:
 
 You create a new project starting from this repository, the _php artisan jwt:generate_ command will be executed.
 
-
-### Libraries
-- Composer (to autoload the libraries listed below) - https://getcomposer.org/
-- nategood/httpful (to make API calls) - https://github.com/nategood/httpful
-- ######## symfony twig(templating) -  http://twig.sensiolabs.org/documentation #######
-- Laravel blade(templating)
-- twitter bootstrap (to represent data) - http://getbootstrap.com/
-
-
 ## Installation
 
 - `git clone https://github.com/ashishnimrot/EcommerceLaravel.git`
