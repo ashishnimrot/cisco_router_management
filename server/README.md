@@ -36,6 +36,7 @@ You create a new project starting from this repository, the _php artisan jwt:gen
 - `git clone https://github.com/ashishnimrot/cisco_router_management.git`
 - `cd cisco_router_management/server`
 - `composer install`
+- `cp .env.example .env`
 -  Edit `.env` and set your database connection details 
 - `php artisan key:generate`
 - `php artisan jwt:generate`
