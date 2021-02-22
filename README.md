@@ -85,3 +85,11 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+##
+This will create a new user that you can use to sign in :
+```yml
+email: ashish.nimrot@world.com
+password: password
+```
+
+
