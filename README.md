@@ -45,7 +45,7 @@ You create a new project starting from this repository, the _php artisan jwt:gen
 - `composer install`
 -  Edit `.env` and set your database connection details 
 - `php artisan key:generate`
-- `php artisan jwt:generate`
+- `php artisan jwt:secret`
 - `php artisan migrate:fresh --seed`
 - `php artisan generate-data:router 100`
 
